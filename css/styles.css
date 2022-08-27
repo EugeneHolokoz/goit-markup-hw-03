@@ -1,0 +1,226 @@
+:root {
+    /* Fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    /* Text colors */
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+    --logo-main-txt-cl: #000000;
+    --grey-txt-cl: #757575;
+    --grey-txt-cl-60: rgba(255, 255, 255, 0.6);
+    --light-txt-cl: #FFFFFF;
+    /* Background colors */
+    --main-bcg-cl: #FFFFFF;
+    --btn-bcg-cl: #2196F3;
+    --black-bcg-cl: #2F303A;
+    --light-bcg-cl: #F5F4FA;
+    /* Others */
+}
+
+.page-studio {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    background-color: var(--main-bcg-cl);
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header */
+
+/* Logo */
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color:var(--logo-main-txt-cl);
+    text-decoration: inherit;
+}
+
+.logo-part-1 {
+    color:var(--accent-txt-cl);
+}
+
+/* Pages list */
+
+.header .list {
+    font-weight: 500;
+    line-height: calc(16 / 14);
+}
+
+.list-item.current {
+    color: var(--accent-txt-cl);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-txt-cl);
+}
+
+/* Contacts */
+
+.contacts {
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    color: var(--grey-txt-cl);
+}
+
+/* Main */
+
+/* Head */
+
+.head {
+    background-color: var(--black-bcg-cl);
+}
+
+.head-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--light-txt-cl);
+}
+
+.head .btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color:var(--light-txt-cl);
+    background-color:var(--btn-bcg-cl);
+    cursor: pointer;
+}
+/* Our features */
+.portfolio-title,
+.features-title.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.features-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+}
+
+.features-desc {
+     color: var(--grey-txt-cl);
+}
+
+/* What we are doing */
+
+.what-doing-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        letter-spacing: 0.03em;
+}
+
+/* Our team */
+
+.team {
+    background-color:var(--light-bcg-cl);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+}
+
+.team-desc {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color:var(--grey-txt-cl);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--black-bcg-cl);
+}
+
+.footer.logo {
+    color: var(--light-txt-cl);
+}
+
+.address {
+    font-style: inherit;
+}
+
+.address .list {
+color: var(--grey-txt-cl-60);
+}
+
+.map {
+    color: var(--light-txt-cl);
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-txt-cl);
+}
+
+/* Portfolio */
+
+.section .btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    background-color: var(--light-bcg-cl);
+    cursor: pointer;
+}
+
+.section .btn:hover,
+.section .btn:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--btn-bcg-cl);
+}
+
+.image-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+
+.image-desc {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+     color: var(--grey-txt-cl);
+}
