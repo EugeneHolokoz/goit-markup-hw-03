@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Best ukrainian Web Studio" />
     <title lang="en">Portfolio</title>
-    <!-- Fonts begin-->
+    <!-- Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- Fonts end -->
+    <!-- Modern normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page-studio">
     <header class="header">
+      <div class="container header-container">
+      <a class="logo" href="./index.html" lang="en"><span class="logo-part-1">Web</span>Studio</a>
       <nav class="main-nav">
-        <a class="logo" href="./index.html" lang="en"
-          ><span class="logo-part-1">Web</span>Studio</a
-        >
         <ul class="list">
           <li class="list-item">
-            <a class="link" href="./index.html">Студія</a>
+            <a class="main-nav-link link" href="./index.html">Студія</a>
           </li>
           <li class="list-item current">
-            <a class="link" href="./portfolio.html">Портфоліо</a>
+            <a class="main-nav-link link" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li class="list-item"><a class="link" href="">Контакти</a></li>
+          <li class="list-item"><a class="main-nav-link link" href="">Контакти</a></li>
         </ul>
       </nav>
       <ul class="list">
@@ -44,12 +47,14 @@
           >
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <!--Portfolio-->
-      <section class="section">
+      <section class="section portfolio">
+        <div class="container portfolio-section">
         <h1 class="portfolio-title">Наші роботи</h1>
-        <ul class="list">
+        <ul class="list filter">
           <li class="list-item">
             <button class="btn" type="button">Усі</button>
           </li>
@@ -66,114 +71,132 @@
             <button class="btn" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="list">
-          <li class="list-item">
+        <ul class="list portfolio-list">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-1.jpg"
               alt="Website screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Технокряк</h2>
             <p class="image-desc">Веб-сайт</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-2.jpg"
               alt="Poster screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Постер New Orlean vs Golden Star</h2>
             <p class="image-desc">Дизайн</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-3.jpg"
               alt="Application screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Ресторан Seafood</h2>
             <p class="image-desc">Додаток</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-4.jpg"
               alt="Marketing project"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Проєкт Prime</h2>
             <p class="image-desc">Маркетинг</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-5.jpg"
               alt="Application screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Проєкт Boxes</h2>
             <p class="image-desc">Додаток</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-6.jpg"
               alt="Website screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Inspiration has no Borders</h2>
             <p class="image-desc">Веб-сайт</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-7.jpg"
               alt="Poster screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Видання Limited Edition</h2>
             <p class="image-desc">Дизайн</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-8.jpg"
               alt="Marketing project"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Проєкт LAB</h2>
             <p class="image-desc">Маркетинг</p>
+            </div>
           </li>
-          <li class="list-item">
+          <li class="list-item portfolio-item">
             <img
-              class="image"
+              class="image-portfolio"
               src="./images/portfolio-img/portfolio-img-9.jpg"
               alt="Application screen"
               width="370"
               height="295"
             />
+            <div class="img-descr">
             <h2 class="image-title">Growing Business</h2>
             <p class="image-desc">Додаток</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a class="footer logo" href="./index.html" lang="en"
-        ><span class="logo-part-1">Web</span>Studio</a
-      >
+      <div class="container footer-container">
+      <a class="footer logo" href="./index.html" lang="en"><span class="logo-part-1">Web</span>Studio</a>
       <address class="address">
         <ul class="list">
           <li class="list-item">
@@ -195,6 +218,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
